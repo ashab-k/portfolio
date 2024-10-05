@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProjectSection from "@/components/ProjectSection";
-import SkillComponent from "@/components/SkillComponent";
 import SkillSection from "@/components/SkillSection";
 export default function Home() {
   return (

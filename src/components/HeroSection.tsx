@@ -20,7 +20,7 @@ const HeroSection = () => {
           transition={{ duration: 1.2 }}
         >
           <p className="text-lg md:text-2xl my-5 ">
-            Hello , I'm{" "}
+            Hello , I&apos;m{" "}
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent shadow-xl">
               {personalData.Name}
             </span>{" "}

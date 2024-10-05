@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import SkillComponent from "./SkillComponent";
 import data from "../../utils/skillData.json";
 import React from "react";
-import { section } from "framer-motion/client";
 
 const SkillSection = () => {
   return (
@@ -18,7 +17,7 @@ const SkillSection = () => {
         Skills
       </motion.h1>
       <div className="grid grid-cols-2 sm:grid-cols-4 place-items-center md:grid-cols-6 lg:grid-cols-8 grid-rows-2 ">
-        {data.map((item: any, index) => {
+        {data.map((item, index) => {
           return (
             <motion.div
               key={index}
